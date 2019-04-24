@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.jhipster.demo.invoice",
+    "packageFolder": "com/jhipster/demo/invoice",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "serviceDiscoveryType": false,
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "invoice",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "buildTool": "maven",
+    "serverPort": "8082",
+    "jhipsterVersion": "5.8.2",
+    "skipUserManagement": true,
+    "clientPackageManager": "npm",
+    "cacheProvider": "hazelcast",
+    "jwtSecretKey": "ZjRmNGYxN2JjYTlhYmY4MmE3Y2RjMTk1YWFjYzdhYzEwZmNkZDNmZmQyZDRmY2Y1YzYxZTc0MTU0YjAxM2YwYWE2NTE5MWJiMjJmZjVjNjQwYmIxYjQwMmJmNDMzYjVjODY5MjdmZWQzNGM1M2VhNWU1M2I2NzBlZjJlODY1MWI=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "Invoice",
+    "Shipment"
+  ]
+}
